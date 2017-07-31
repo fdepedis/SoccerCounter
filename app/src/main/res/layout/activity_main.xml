@@ -58,12 +58,6 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <View
-            android:layout_width="1dp"
-            android:layout_height="match_parent"
-            android:layout_marginTop="16dp"
-            android:background="@android:color/darker_gray" />
-
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -91,7 +85,6 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="sans-serif-medium"
-                    android:padding="16dp"
                     android:text="Roma"
                     android:textColor="#616161"
                     android:textSize="24sp" />
@@ -129,7 +122,42 @@
                     android:onClick="redCardA" />
             </LinearLayout>
 
+            <LinearLayout
+                android:id="@+id/cardA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/numberYellowCardA"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/numberRedCardA"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
         </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray" />
 
         <LinearLayout
             android:layout_width="0dp"
@@ -158,11 +186,9 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="sans-serif-medium"
-                    android:padding="16dp"
                     android:text="Lazio"
                     android:textColor="#616161"
                     android:textSize="24sp" />
-
             </LinearLayout>
 
             <Button
@@ -193,6 +219,36 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/ic_rosso"
                     android:onClick="redCardB" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cardB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/numberYellowCardB"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/numberRedCardB"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
             </LinearLayout>
 
         </LinearLayout>

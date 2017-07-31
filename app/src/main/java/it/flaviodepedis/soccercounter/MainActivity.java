@@ -82,8 +82,17 @@ public class MainActivity extends AppCompatActivity {
     public void resetScore (View view){
         scoreTeamA = 0;
         scoreTeamB = 0;
+        yellowCardTeamA = 0;
+        yellowCardTeamB = 0;
+        redCardTeamA = 0;
+        redCardTeamB = 0;
+
         displayScoreForTeamA(scoreTeamA);
         displayScoreForTeamB(scoreTeamB);
+        displayYellowCardTeamA(yellowCardTeamA);
+        displayYellowCardTeamB(yellowCardTeamB);
+        displayRedCardTeamA(redCardTeamA);
+        displayRedCardTeamB(redCardTeamB);
     }
 
     /**
@@ -106,28 +115,32 @@ public class MainActivity extends AppCompatActivity {
      * Displays the yellow card for Team A.
      */
     public void displayYellowCardTeamA(int yellowCardTeamA) {
-
+        TextView cardYellowViewA = (TextView) findViewById(R.id.numberYellowCardA);
+        cardYellowViewA.setText(String.valueOf(yellowCardTeamA));
     }
 
     /**
      * Displays the yellow card for Team B.
      */
     public void displayYellowCardTeamB(int yellowCardTeamB) {
-
+        TextView cardYellowViewB = (TextView) findViewById(R.id.numberYellowCardB);
+        cardYellowViewB.setText(String.valueOf(yellowCardTeamB));
     }
 
     /**
      * Displays the red card for Team A.
      */
     public void displayRedCardTeamA(int redCardTeamA) {
-
+        TextView cardRedViewA = (TextView) findViewById(R.id.numberRedCardA);
+        cardRedViewA.setText(String.valueOf(redCardTeamA));
     }
 
     /**
      * Displays the red card for Team B.
      */
     public void displayRedCardTeamB(int redCardTeamB) {
-
+        TextView cardRedVieB = (TextView) findViewById(R.id.numberRedCardB);
+        cardRedVieB.setText(String.valueOf(redCardTeamB));
     }
 
 
