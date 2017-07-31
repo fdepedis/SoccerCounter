@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_shortcutSoccerIcon"
+        android:icon="@drawable/ic_soccer_icon"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/ic_shortcutSoccerIcon"
+        android:roundIcon="@drawable/ic_soccer_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
