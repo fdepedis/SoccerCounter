@@ -74,10 +74,8 @@
                     android:id="@+id/imgRoma"
                     android:layout_width="0dp"
                     android:layout_height="100dp"
-                    android:layout_weight="1"
                     android:layout_gravity="center"
-                    android:layout_marginBottom="15dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
                     android:scaleType="centerCrop"
                     android:src="@drawable/ic_roma" />
 
@@ -90,7 +88,6 @@
                     android:text="Roma"
                     android:textColor="#616161"
                     android:textSize="24sp" />
-
             </LinearLayout>
 
             <Button
@@ -179,8 +176,6 @@
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     android:layout_gravity="center"
-                    android:layout_marginBottom="15dp"
-                    android:layout_marginTop="10dp"
                     android:scaleType="centerCrop"
                     android:src="@drawable/ic_lazio" />
 
@@ -252,7 +247,6 @@
                     android:text="0"
                     android:textColor="@android:color/black"
                     android:textSize="20sp" />
-
             </LinearLayout>
 
         </LinearLayout>
