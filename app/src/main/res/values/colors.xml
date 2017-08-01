@@ -8,4 +8,13 @@
 
     <!-- Accent color for UI controls like checkboxes and text fields -->
     <color name="colorAccent">#F0514B</color>
+
+    <!-- Color for the EditText about score team-->
+    <color name="colorEditTextScore">@android:color/white</color>
+
+    <!-- Color for the EditText about label team-->
+    <color name="colorEditTextTeam">#616161</color>
+
+    <!-- Color for the EditText about card team-->
+    <color name="colorEditTextCard">@android:color/black</color>
 </resources>

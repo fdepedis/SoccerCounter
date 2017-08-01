@@ -8,22 +8,22 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     // Tracks the score for Team A
-    int scoreTeamA = 0;
+    private int scoreTeamA = 0;
 
     // Tracks the score for Team B
-    int scoreTeamB = 0;
+    private int scoreTeamB = 0;
 
     // Tracks the yellow card for Team A
-    int yellowCardTeamA = 0;
+    private int yellowCardTeamA = 0;
 
     // Tracks the yellow card for Team B
-    int yellowCardTeamB = 0;
+    private int yellowCardTeamB = 0;
 
     // Tracks the red card for Team A
-    int redCardTeamA = 0;
+    private int redCardTeamA = 0;
 
     // Tracks the red card for Team B
-    int redCardTeamB = 0;
+    private int redCardTeamB = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
