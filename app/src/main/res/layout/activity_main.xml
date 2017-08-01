@@ -60,31 +60,18 @@
 
                 <ImageView
                     android:id="@+id/imgRoma"
-                    android:layout_width="0dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:scaleType="centerCrop"
+                    style="@style/ImageTeamStyle"
                     android:src="@drawable/ic_roma" />
 
                 <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_gravity="center_vertical"
-                    android:fontFamily="sans-serif-medium"
-                    android:text="@string/teamA"
-                    android:textColor="#616161"
-                    android:textSize="24sp" />
+                    android:id="@+id/txtTeamA"
+                    style="@style/TextTeamStyle"
+                    android:text="@string/teamA" />
             </LinearLayout>
 
             <Button
-                android:id="@+id/button2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
-                android:layout_marginTop="10dp"
+                android:id="@+id/btnTeamA"
+                style="@style/ButtonTeamStyle"
                 android:onClick="addScoreTeamA"
                 android:text="@string/addPoint" />
 
@@ -117,25 +104,13 @@
 
                 <TextView
                     android:id="@+id/numberYellowCardA"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:fontFamily="sans-serif-light"
-                    android:gravity="center"
-                    android:text="@string/resetValueTxt"
-                    android:textColor="@android:color/black"
-                    android:textSize="20sp" />
+                    style="@style/TextTeamCardStyle"
+                    android:text="@string/resetValueTxt" />
 
                 <TextView
                     android:id="@+id/numberRedCardA"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:fontFamily="sans-serif-light"
-                    android:gravity="center"
-                    android:text="@string/resetValueTxt"
-                    android:textColor="@android:color/black"
-                    android:textSize="20sp" />
+                    style="@style/TextTeamCardStyle"
+                    android:text="@string/resetValueTxt" />
             </LinearLayout>
 
         </LinearLayout>
@@ -160,30 +135,18 @@
 
                 <ImageView
                     android:id="@+id/imgLazio"
-                    android:layout_width="0dp"
-                    android:layout_height="100dp"
-                    android:layout_weight="1"
-                    android:layout_gravity="center"
-                    android:scaleType="centerCrop"
+                    style="@style/ImageTeamStyle"
                     android:src="@drawable/ic_lazio" />
 
                 <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_gravity="center_vertical"
-                    android:fontFamily="sans-serif-medium"
-                    android:text="@string/teamB"
-                    android:textColor="#616161"
-                    android:textSize="24sp" />
+                    android:id="@+id/txtTeamB"
+                    style="@style/TextTeamStyle"
+                    android:text="@string/teamB" />
             </LinearLayout>
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
-                android:layout_marginTop="10dp"
+                android:id="@+id/btnTeamB"
+                style="@style/ButtonTeamStyle"
                 android:onClick="addScoreTeamB"
                 android:text="@string/addPoint" />
 
@@ -216,25 +179,13 @@
 
                 <TextView
                     android:id="@+id/numberYellowCardB"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:fontFamily="sans-serif-light"
-                    android:gravity="center"
-                    android:text="@string/resetValueTxt"
-                    android:textColor="@android:color/black"
-                    android:textSize="20sp" />
+                    style="@style/TextTeamCardStyle"
+                    android:text="@string/resetValueTxt" />
 
                 <TextView
                     android:id="@+id/numberRedCardB"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:fontFamily="sans-serif-light"
-                    android:gravity="center"
-                    android:text="@string/resetValueTxt"
-                    android:textColor="@android:color/black"
-                    android:textSize="20sp" />
+                    style="@style/TextTeamCardStyle"
+                    android:text="@string/resetValueTxt" />
             </LinearLayout>
 
         </LinearLayout>
